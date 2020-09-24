@@ -1,23 +1,4 @@
-os: linux
+os: windows
 jobs:
   include:
-     - dist: xenial
-       language: perl
-       
-     - dist: xenial
-       language: erlang
-       
-     - dist: xenial
-       language: python
-              
-     - dist: bionic
-       language: perl
-       
-     - dist: bionic 
-       language: erlang
-       
-     - dist: bionic
-       language: python
-       
-script:
- - return 0
+    - script: echo "test"
